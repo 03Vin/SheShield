@@ -2,14 +2,15 @@
 // Uses Firebase Compat SDK for simplicity (works via <script> tags)
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBqcmBEvAKhllpbqYiFP8dlrpeAyw8vjHM",
-  authDomain: "sheshield-fd94e.firebaseapp.com",
-  projectId: "sheshield-fd94e",
-  storageBucket: "sheshield-fd94e.firebasestorage.app",
-  messagingSenderId: "864016319268",
-  appId: "1:864016319268:web:618726d72da750644a69b1",
-  measurementId: "G-LSR2EWKQHP"
+  apiKey: "AIzaSyB5HRus5iyhpI3txICDVVUpOBDWK78RhLk",
+  authDomain: "sheshield-282ab.firebaseapp.com",
+  projectId: "sheshield-282ab",
+  storageBucket: "sheshield-282ab.firebasestorage.app",
+  messagingSenderId: "842924799969",
+  appId: "1:842924799969:web:568deca4f06b248bbf84a0",
+  measurementId: "G-3ME7V8261K"
 };
+
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
