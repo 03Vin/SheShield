@@ -14,10 +14,10 @@ class Database {
             ];
         }
         return [
-            'host' => 'localhost',
-            'db'   => 'sheshield',
-            'user' => 'root',
-            'pass' => '',
+            'host' => 'mysql-vinay.alwaysdata.net',
+            'db'   => 'vinay_sheshield',
+            'user' => 'vinay',
+            'pass' => 'Vinay@1234',
             'port' => 3306,
             'driver' => 'mysql'
         ];
