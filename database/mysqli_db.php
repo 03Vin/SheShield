@@ -231,14 +231,9 @@ function ensure_mysqli_schema($conn) {
 function get_mysqli_connection() {
     global $servername, $username, $password, $dbname;
 
-    $conn = new mysqli($servername, $username, $password);
+    $conn = new mysqli($servername, $username, $password, $dbname);
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
-    }
-
-    $conn->query("CREATE DATABASE IF NOT EXISTS `$dbname` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci");
-    if (!$conn->select_db($dbname)) {
-        die("Database selection failed: " . $conn->error);
     }
 
     $conn->set_charset("utf8mb4");
