@@ -65,7 +65,7 @@ try {
     $photoUrl = filter_var($photoUrl, FILTER_VALIDATE_URL) ? $photoUrl : null;
 
     $tokenClaims = decode_firebase_id_token_claims($idToken);
-    $projectId = 'sheshield-fd94e';
+    $projectId = 'sheshield-282ab';
     $tokenEmail = $tokenClaims['email'] ?? null;
     $tokenAudience = $tokenClaims['aud'] ?? '';
     $tokenIssuer = $tokenClaims['iss'] ?? '';
