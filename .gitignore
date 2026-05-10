@@ -1,0 +1,40 @@
+# ═══ SheShield .gitignore ═══
+
+# Dependencies
+node_modules/
+vendor/
+composer.phar
+package-lock.json
+composer.lock
+
+# Environment & Secrets
+.env
+*.env
+app/config/email_config.php
+app/config/config.php
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Uploads (user data)
+uploads/
+
+# Build artifacts
+dist/
+build/
+
+# Cache
+.cache/
+.vercel
